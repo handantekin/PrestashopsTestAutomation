@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="8365" started-at="2018-03-08T03:38:29Z" finished-at="2018-03-08T03:38:37Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="8365" started-at="2018-03-08T03:38:29Z" finished-at="2018-03-08T03:38:37Z">
+      <class name="com.amazaonaws.test.AWSCalculatorTests">
+        <test-method status="PASS" signature="setUp(java.lang.String)[pri:0, instance:com.amazaonaws.test.AWSCalculatorTests@5acf93bb]" name="setUp" is-config="true" duration-ms="854" started-at="2018-03-07T21:38:29Z" finished-at="2018-03-07T21:38:30Z">
+          <params>
+            <param index="0">
+              <value is-null="true"/>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="deafultMonthlyBillTest()[pri:0, instance:com.amazaonaws.test.AWSCalculatorTests@5acf93bb]" name="deafultMonthlyBillTest" duration-ms="967" started-at="2018-03-07T21:38:30Z" description="Monthly bill should be $0.00 by default" finished-at="2018-03-07T21:38:31Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deafultMonthlyBillTest -->
+        <test-method status="PASS" signature="addEc2DeafultValueTest()[pri:1, instance:com.amazaonaws.test.AWSCalculatorTests@5acf93bb]" name="addEc2DeafultValueTest" duration-ms="1163" started-at="2018-03-07T21:38:31Z" finished-at="2018-03-07T21:38:32Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addEc2DeafultValueTest -->
+        <test-method status="PASS" signature="clearFormTest()[pri:2, instance:com.amazaonaws.test.AWSCalculatorTests@5acf93bb]" name="clearFormTest" duration-ms="5281" started-at="2018-03-07T21:38:32Z" finished-at="2018-03-07T21:38:37Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clearFormTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.amazaonaws.test.AWSCalculatorTests@5acf93bb]" name="tearDown" is-config="true" duration-ms="80" started-at="2018-03-07T21:38:37Z" finished-at="2018-03-07T21:38:37Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.amazaonaws.test.AWSCalculatorTests -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
